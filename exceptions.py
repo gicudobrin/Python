@@ -8,3 +8,5 @@ def add(x, y):
         return a + b
 sum = add(l, 3)
 print(sum)
+
+Te pup si te iubesc!
