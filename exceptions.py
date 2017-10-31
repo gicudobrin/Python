@@ -10,3 +10,7 @@ sum = add(l, 3)
 print(sum)
 
 dvdfvdfvf
+
+dvvv
+
+Ce mai faci?
