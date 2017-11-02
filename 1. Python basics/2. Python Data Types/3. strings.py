@@ -43,3 +43,7 @@ print("=" * 10)
 nume = "Americanu"
 subject = "Treehouse loves" + " " + nume
 print(subject)
+
+numele = "Claudiu"
+subiect = "Treehouse loves {}".format(numele)
+print(subiect)
