@@ -6,7 +6,7 @@ launch = "turkey sandwich"
 
 # Create a function (it can accept arguments and parameters)
 
-def answer_the_phone()
+def answer_the_phone():
 	print("Hi, this is Jane. Who is this?")
 
 # Triggering a function is known as calling it.
