@@ -4,7 +4,7 @@ shopping_list = []
 
 # print out instructions on how to use the app
 
-print("What shall we pich up at the store?")
+print("What shall we pick up at the store?")
 print("Enter 'DONE' to stop adding items.")
 
 while True:
