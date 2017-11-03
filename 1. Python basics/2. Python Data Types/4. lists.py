@@ -1,26 +1,26 @@
-list = [1,2,3]
-print(list)
+my_list = [1,2,3]
+print(my_list)
 
-list + [4,5,6]
+my_list + [4,5,6]
 
 
-list += [4,5,6]
-print(list)
+my_list += [4,5,6]
+print(my_list)
 
 # append lets us add another item to our list - single item
-list.append(7)
-print(list )
-list.append([8,9])
-print(list)
+my_list.append(7)
+print(my_list )
+my_list.append([8,9])
+print(my_list)
 
 # if we want to add multiple items we can use extend
 
-list.extend([10,11,12])
+my_list.extend([10,11,12])
 
-print(list)
+print(my_list)
 
-list.remove([8,9])
-print(list)
+my_list.remove([8,9])
+print(my_list)
 
 # ValueError
 
@@ -45,8 +45,8 @@ print(states)
 # splitting and joining
 
 # iterable means can be looped through
-# lists and ints  are not iterable
-# strings are iterable
+# ints are not iterable
+# strings and lists are iterable
 
 print('hello'.split()) # transform a string into a list
 
@@ -80,23 +80,26 @@ print(" ")
 
 alpha = "abcde"
 print(alpha.index('a'))
-# alpha_list = list(alpha)
-# print(alpha_list)
-# print(alpha_list.index('b'))
+
+alpha_list = list(alpha)
+print(alpha_list)
+print(alpha_list.index('b'))
 
 print(alpha[0])
 
-# var_one = list("abcdet")
-# var_two = list("aed")
+var_one = list("abcdet")
+print(var_one)
+var_two = list("aed")
 
 trash = 99
 print(trash)
-del trash
-print(trash)
+# del trash
+# print(trash)
 
 alpha_list = list(alpha)
 del alpha_list[2] # we can delete one single item at once
 
 messy = [5, 2, 8, 1, 3]
 del messy[2]
+print(messy)
 del messy[1]
