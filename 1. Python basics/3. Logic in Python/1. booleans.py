@@ -33,7 +33,7 @@ print(bool(wrong))
 # Operator	Comparison
 # ==	A is equal to B
 # !=	A is not equal to B
-# <		A is less than B
+# <     A is less than B
 # >		A is greater than B
 # <=	A is less than, or equal to, B
 # >=	A is greater than, or equal to, B
