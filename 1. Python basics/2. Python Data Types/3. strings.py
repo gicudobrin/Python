@@ -39,6 +39,8 @@ status_message = "Hey we have {} people using the site right now."
 print(status_message.format(7)) 
 print("Hey we have {} {} using the site right now".format(5, "dogs"))
 
+# {} is a placeholder
+
 print("=" * 10)
 
 nume = "Americanu"
