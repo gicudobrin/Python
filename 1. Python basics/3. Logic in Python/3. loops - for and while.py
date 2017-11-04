@@ -38,7 +38,12 @@ print(" ")
 for name in names:
 	if name == 'QUIT':
 		continue
-	print(name)
+		print(name)
+	else:
+		print("My name is {}.".format(names[0]))
 
 print(" ")
+
+age = input("Wat's your age?\n")
+print(age)
 
