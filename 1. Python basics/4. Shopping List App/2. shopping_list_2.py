@@ -34,11 +34,11 @@ show_help()
 while True:
     # ask for new items
     
-    new_item = input("> ")
+    new_item = raw_input("> ")
     
     # be able to quit the app
     
-    if new_item == 'DONE':
+    if new_item.lower == 'DONE':
         break
     elif new_item == 'HELP':
         show_help()
