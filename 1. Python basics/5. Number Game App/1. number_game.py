@@ -1,3 +1,5 @@
+# Python Standard Library
+
 import random
 
 def game():
@@ -21,7 +23,7 @@ def game():
             else:
                 print("My number is lower than {}".format(guess))
             guesses.append(guess)
-                #continue
+            #continue
             # print hit/miss
     else:
         print("You didn't get it! My number was {}".format(secret_num))
