@@ -8,7 +8,7 @@ def game():
     while len(guesses) < 5:
         try:
             # get a number guess from the player
-            guess = int(input("Guess a number between 1 and 10: "))
+            guess = int(raw_input("Guess a number between 1 and 10: "))
         except ValueError:
             print("{} isn't a number!".format(guess))
         else:   
@@ -25,7 +25,7 @@ def game():
             # print hit/miss
     else:
         print("You didn't get it! My number was {}".format(secret_num))
-    play_again = input("Do you want to play again? Y/n ")
+    play_again = raw_input("Do you want to play again? Y/n ")
     if play_again.lower() != 'n':
         game()
     else:
