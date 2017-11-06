@@ -10,7 +10,7 @@ shopping_list = []
 
 def show_help():
     # print out instructions on how to use the app
-    print("What shall we pich up at the store?")
+    print("What shall we pick up at the store?")
     print("""
 Enter 'DONE' to stop adding items.
 Enter 'HELP' for this help.

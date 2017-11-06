@@ -1,4 +1,12 @@
 # make a list to hold onto our items
+# print out instructions on how to use the app
+# ask for new items
+# be able to quit the app
+# print out the list
+
+
+# make a list to hold onto our items
+
 
 shopping_list = []
 
@@ -8,11 +16,12 @@ print("What shall we pick up at the store?")
 print("Enter 'DONE' to stop adding items.")
 
 while True:
+
     # ask for new items
     
-    new_item = input("> ")
+    new_item = raw_input("> ")
     
-    # be able to quit the ap
+    # be able to quit the app
     
     if new_item == 'DONE':
         break
@@ -21,12 +30,9 @@ while True:
     
     shopping_list.append(new_item)
 
-
-
-# be able to quit the ap
 # print out the list
 
-print("Here's your list:")
+print("Here's your list:\n")
 
 for item in shopping_list:
     print(item)
