@@ -1,4 +1,16 @@
+from __future__ import print_function
 import random
+
+
+# make a list of words
+# pick a random word
+# draw spaces
+# take guess
+# draw guessed letters and strikes
+# print out win/lose
+
+
+# make a list of words
 
 words = [
     'apple',
@@ -15,26 +27,36 @@ words = [
 ]
 
 while True:
-    start = input("Press enter/return to start, or Q to quit ")
+    start = raw_input("Press enter/return to start, or Q to quit ")
     if start.lower() == 'q':
         break
 
+   	# pick a random word
+    
     secret_word = random.choice(words)
     bad_guesses = []
     good_guesses = []
 
     while len(bad_guesses) < 7 and len(good_guesses) != len(list(secret_word)):
+
+    	# draw spaces
+    	# draw guessed letters and strikes
+
+
         for letter in secret_word:
             if letter in good_guesses:
-                print(letter, end='')
+                print(letter, end ='')
             else:
-                print('_', end='')
+                print('_', end ='')
 
         print('')
         print('Strikes: {}/7'.format(len(bad_guesses)))
         print('')
 
-        guess = input("Guess a letter: ").lower()
+        # take guess
+
+
+        guess = raw_input("Guess a letter: ").lower()
 
         if len(guess) != 1:
             print("You can only guess a single letter!")
