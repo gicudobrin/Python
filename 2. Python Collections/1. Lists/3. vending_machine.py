@@ -3,7 +3,7 @@ chips = ["Doritos", "Fritos"]
 candy = ["Snickers", "M&Ms", "Twizzlers"]
 
 while True:
-    choice = input("Would you like a SODA, some CHIPS, or a CANDY? ").lower()
+    choice = raw_input("Would you like a SODA, some CHIPS, or a CANDY? ").lower()
     
     try:
         if choice == 'soda':
