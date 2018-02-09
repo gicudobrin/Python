@@ -1,6 +1,8 @@
 # Python
-Here are the Python track from Treehouse.
-Wahat we've learned is here.
+
+Here are the ***Python*** track from Treehouse.
+
+What we've learned is here.
 
 Thank you!
 
