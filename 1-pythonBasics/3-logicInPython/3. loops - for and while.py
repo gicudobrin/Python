@@ -1,5 +1,3 @@
-
-
 for name in ['Bob', 'Emily', 'Jane']:
 	print("Hello " + name)
 

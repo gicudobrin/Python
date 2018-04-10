@@ -1,6 +1,9 @@
 # Example of a function:
 # def function_name(argument):
 
+import os
+import random
+
 def hows_the_parrot():
 	print("He's pining for the fjords!")
 
@@ -11,8 +14,8 @@ def lumberjack(name):
 		print("Kenneth's a lumberjack and he's OK!")
 	else:
 		print("{} sleeps all night and {} works all day!".format(name, name))
-lumberjack("Kenneth")
 
+lumberjack("Kenneth")
 lumberjack("ANA")
 
 def average(num1,num2):
@@ -24,28 +27,14 @@ def printer(count):
     print("Hi " * count)
 printer(10)
 
-
-import os
-import random
-
-def clear():
-    if os.name == 'nt':
-    	os.system('cls')
-    else:
-        os.system('clear')
-clear()
-
-prefixes = 'JKLMNOPQ'
-suffix = 'ack'
-index = 0
-for item in prefixes:
-	if prefixes[index] == 'O':
-		print item + "u" + suffix
+def polindrom(word1,word2):
+	if word1[:] == word2[::-1]:
+		# return True
+		print "good"
 	else:
-		print item + suffix
-	index += 1
+		print "nope"
 
-print "\n"
+polindrom("noot","noon")
 
 def count(letter, word):
 	# count = 0
@@ -57,27 +46,18 @@ def count(letter, word):
 
 count("5","55kj5")
 
-def polindrom(word1,word2):
-	if word1[:] == word2[::-1]:
-		# return True
-		print "good"
-	else:
-		print "nope"
+def greetPerson(*name):
+  print('Hello', name)
 
-polindrom("noot","noon")
+greetPerson('Frodo', 'Sauron')
 
+# def clear():
+# 	if os.name == 'nt':
+# 		os.system('cls') 
+# 	else:
+# 		os.system('clear')
 
-import os
-#import random
-
-
-def clear():
-	if os.name == 'nt':
-		os.system('cls') 
-	else:
-		os.system('clear')
-
-clear()
+# clear()
 
 numbers = [23,45,34,23,78]
 print numbers
@@ -86,8 +66,12 @@ for i in [0,1,2,3,4]:
 
 print numbers
 
-
-def greetPerson(*name):
-  print('Hello', name)
-
-greetPerson('Frodo', 'Sauron')
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
+index = 0
+for item in prefixes:
+	if prefixes[index] == 'O':
+		print item + "u" + suffix
+	else:
+		print item + suffix
+	index += 1
