@@ -47,7 +47,7 @@ def count(letter, word):
 count("5","55kj5")
 
 def greetPerson(*name):
-  print('Hello', name)
+	print('Hello', name)
 
 greetPerson('Frodo', 'Sauron')
 

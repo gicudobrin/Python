@@ -19,9 +19,27 @@
 
 
 # Let's make a class:
+
+# class NewClass:
+#     name_attribute = "Kenneth"
+
+#     def name_method(self):
+#        print self.name_attribute
+
+# new_instance = NewClass()
+# new_instance.name_method()
+
 import random
-class Thief():
+
+class Thief:
 	sneaky = True
 
+	def __init__(self, name, sneaky = True, **kwargs):
+		self.name = name
+		self.sneaky = sneaky
+
 	def pickpocket(self):
-		return bool(random.randint(0,1))
+		return self.sneaky and bool(random.randomint(0,1))
+		
+	def hide(self, light_level):
+		return self.sneaky and light_level < 10

@@ -2,6 +2,7 @@
 # Sometimes we just want part of it, and Python calls these sub-string or sub-lists "slices"
 
 # [start:stop]
+# [inclusive:exclusive]
 
 # Both start and stop are optional. If you leave off start, the slice will start at the beginning of the iterable. If you leave off stop, the slice will continue until the end of the iterable.
 
