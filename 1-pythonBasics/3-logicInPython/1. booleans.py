@@ -1,4 +1,4 @@
-# we can have two boolean values: true and false
+# we can have two boolean values: True and False
 
 # True = 1
 # False = 0
