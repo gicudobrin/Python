@@ -27,7 +27,7 @@ def printer(count):
     print("Hi " * count)
 printer(10)
 
-def polindrom(word1,word2):
+def palindrom(word1,word2):
 	if word1[:] == word2[::-1]:
 		# return True
 		print "good"
