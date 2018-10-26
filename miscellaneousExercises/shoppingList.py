@@ -30,7 +30,7 @@ show_help()
 
 while True:
 
-	new_item = raw_input("> ")
+	new_item = input("> ")
 	if new_item.upper() == "DONE":
 		break
 	elif new_item.upper() == "HELP":

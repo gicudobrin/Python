@@ -34,7 +34,7 @@ def palindrom(word1,word2):
 	else:
 		print "nope"
 
-polindrom("noot","noon")
+palindrom("noot","noon")
 
 def count(letter, word):
 	# count = 0

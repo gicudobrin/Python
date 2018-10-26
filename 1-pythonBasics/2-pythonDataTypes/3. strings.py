@@ -2,7 +2,7 @@
 # spaces, emoji, whatever, in-between two sets of quote marks.
 # strings are immutable which means that we cant change something in the same string
 # We can use single or double quotes, but they have to be the same on both sides.
-# we can delete things from a string
+# we can't delete things from a string
 
 print('He\'s right')
 print("""He's right""")
