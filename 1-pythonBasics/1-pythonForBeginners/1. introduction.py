@@ -21,7 +21,7 @@ answer_the_phone()
 
 # Syntax is what we call the rules for writing in a programming language.
 
-# The Python Shell - REPL = read - evaluate - print loop
+# The Python Shell - REPL = read - evaluate - print - loop
 
 #	type python to be in the shell.
 #   type exit() to quit it.
